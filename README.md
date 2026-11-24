@@ -40,8 +40,9 @@ El informe completo está en [informe_cyclistic.pdf](informe_cyclistic.pdf).
 
 ```
 cyclistic_analisis.ipynb      Notebook completo (Ask → Act), ya ejecutado
-sql/01_carga_y_limpieza.sql   Carga de los 12 CSV, limpieza y columnas nuevas
-sql/02_analisis.sql           Consultas del análisis descriptivo
+sql/01_carga.sql              Carga de los 12 CSV en una tabla en bruto
+sql/02_limpieza.sql           Reglas de limpieza, motivo de exclusión y columnas nuevas
+sql/03_analisis.sql           Consultas del análisis descriptivo
 graficos/                     Los 5 gráficos en PNG
 resumen/                      Tablas resumen exportadas en CSV
 ```

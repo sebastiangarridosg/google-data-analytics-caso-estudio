@@ -1,0 +1,11 @@
+# Datos originales de Divvy: pesan más de 1 GB y se descargan desde la fuente (ver README)
+datos_originales/
+excluidos/
+
+# Base de datos local que crea el notebook
+*.duckdb
+*.duckdb.wal
+
+# Archivos temporales de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
